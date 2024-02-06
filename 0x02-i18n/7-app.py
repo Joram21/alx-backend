@@ -3,6 +3,7 @@
 
 """ adding a get locale function with the babel.localeselector decorator"""
 
+import pytz
 from flask_babel import Babel
 from flask import *
 from pytz import all_timezones
