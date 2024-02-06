@@ -28,7 +28,7 @@ def index() -> str:
 
 
 @babel.localeselector
-def get_locale() -> str:
+def get_locale():
     """ get locale language code from request accepted languages """
     return request.accept_languages.best_match(app.config['LANGUAGES'])
 
